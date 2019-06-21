@@ -6,8 +6,10 @@ My hackerrank codes for problem solving and algorithm implementation.
 Problem | Difficulty
 ---- | ----
 3D Surface Area | Medium
+Alternating Characters | Medium
 Beautiful List | Easy
 Bigger Is Greater | Medium
+Birthday Chocolate | Medium
 BotClean Stochastic | Medium
 BotClean | Medium
 Bot Clean Large | Medium
@@ -22,7 +24,7 @@ Closest Pair | Medium
 Coin Toss | Easy
 Complex Number | Easy
 Count Even | Easy
-Encryption | Easy
+Encryption | Medium
 Extract Number | Easy
 Factorial Number | Easy
 Factor Number | Easy

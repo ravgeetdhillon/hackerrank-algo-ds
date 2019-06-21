@@ -1,21 +1,30 @@
 import math
-#data=input()
-data='mynameisravgeet'
-temp=[]
-size=len(data)
-r=math.floor(math.sqrt(size))
-c=r+1
 
-i=0
-while i<size:
-    temp.append(data[i:i+c])
-    i+=c
+string = input()
 
-code=''
-n=0
-while n!=c:
-    for i in temp:
-        code+=i[n]
-    code+=' '
-    n+=1
-    print(code)
+size = len(string)
+r = math.floor( math.sqrt(size) )
+c = r
+while r * c < size:
+    if (r < c):
+        r += 1
+    else:
+        c += 1
+
+grid = []
+i = 0
+while i < size:
+    grid.append( string[i : i + c] )
+    i += c
+
+encrypted = []
+for i in range(0, c):
+    block = ''
+    for j in range(0, r):
+        try:
+            block += grid[j][i]
+        except:
+            break
+    encrypted.append(block)
+
+print( ' '.join(encrypted) )
