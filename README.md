@@ -32,6 +32,7 @@ Fibonacci Series | Easy
 Ice Cream Parlour | Easy
 Kangaroo | Easy
 Largest Number | Easy
+Larry's Array | Medium
 Make It Anagram | Easy
 Marc Cakewalk | Easy
 Mars Exploration | Medium
@@ -48,4 +49,5 @@ Queen Attack II | Medium
 Reduced String | Easy
 Sherlock And Array | Easy
 Small vs Capital | Easy
+The Bomberman Game | Medium
 The Grid Search | Medium
