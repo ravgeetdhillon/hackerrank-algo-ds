@@ -29,6 +29,7 @@ Extract Number | Easy
 Factorial Number | Easy
 Factor Number | Easy
 Fibonacci Series | Easy
+Fraudulent Activity Notifications | Medium
 Ice Cream Parlour | Easy
 Kangaroo | Easy
 Largest Number | Easy
@@ -43,6 +44,7 @@ Minimum Loss | Easy
 Missing Numbers | Easy
 Multiplication Table | Easy
 New Year Chaos | Medium
+Organising Balls Of Container | Medium
 Prime Number | Easy
 Prime Odd Even | Easy
 Queen Attack II | Medium
