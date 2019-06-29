@@ -6,6 +6,7 @@ My hackerrank codes for problem solving and algorithm implementation.
 Problem | Difficulty
 ---- | ----
 3D Surface Area | Medium
+Absolute Permutations | Medium
 Alternating Characters | Medium
 Beautiful List | Easy
 Bigger Is Greater | Medium
@@ -22,6 +23,7 @@ Chocolate | Easy
 Click O Mania | Medium
 Closest Pair | Medium
 Coin Toss | Easy
+Common Child | Medium
 Complex Number | Easy
 Count Even | Easy
 Encryption | Medium
