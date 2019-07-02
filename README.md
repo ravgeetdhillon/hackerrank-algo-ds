@@ -54,4 +54,5 @@ Reduced String | Easy
 Sherlock And Array | Easy
 Small vs Capital | Easy
 The Bomberman Game | Medium
+The Full Counting Sort | Medium
 The Grid Search | Medium
