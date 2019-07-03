@@ -7,6 +7,7 @@ Problem | Difficulty
 ---- | ----
 3D Surface Area | Medium
 Absolute Permutations | Medium
+Almost Sorted | Medium
 Alternating Characters | Medium
 Beautiful List | Easy
 Bigger Is Greater | Medium
