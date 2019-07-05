@@ -27,7 +27,9 @@ Coin Toss | Easy
 Common Child | Medium
 Complex Number | Easy
 Count Even | Easy
+Designer PDF Viewer | Easy
 Encryption | Medium
+Equalize The Array | Easy
 Extract Number | Easy
 Factorial Number | Easy
 Factor Number | Easy
@@ -53,6 +55,7 @@ Prime Number | Easy
 Prime Odd Even | Easy
 Queen Attack II | Medium
 Reduced String | Easy
+Sequence Equation | Easy
 Sherlock And Array | Easy
 Small vs Capital | Easy
 The Bomberman Game | Medium
