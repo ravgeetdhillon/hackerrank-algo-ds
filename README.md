@@ -45,6 +45,7 @@ Maximum Sub Array Sum | Medium
 Maze Escape | Medium
 Minimum Loss | Easy
 Missing Numbers | Easy
+Modified Kaprekar Numbers | Medium
 Multiplication Table | Easy
 New Year Chaos | Medium
 Organising Balls Of Container | Medium
