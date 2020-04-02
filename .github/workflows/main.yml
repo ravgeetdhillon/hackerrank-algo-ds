@@ -22,6 +22,8 @@ jobs:
       run: |
         cd src
         python readme.py
+        cd ..
+        ls
 
     - name: Commit and Push
       run: |
