@@ -5,7 +5,7 @@ on:
     branches: master
 
 jobs:
-  build:
+  updation:
 
     runs-on: ubuntu-latest
 
@@ -26,6 +26,8 @@ jobs:
         ls
 
     - name: Commit and Push
+      env:
+        REMOTE_BRANCH: master
       run: |
         change=`git diff README.md`
         if [ ! -z "$change" ]
