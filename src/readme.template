@@ -1,0 +1,10 @@
+# $repository_name
+$repository_description
+
+[My Hackerrank Profile]($profile_link)
+
+Problem | Source
+---- | ----
+$codes
+
+> This README file is generated automatically using [Github Actions](https://github.com/ravgeetdhillon/hackerrank-algo-ds/actions) whenever a new code is inserted. Check out the [script here](https://github.com/ravgeetdhillon/hackerrank-algo-ds/blob/master/src/readme.py).
