@@ -1,0 +1,36 @@
+name: Update Readme
+
+on:
+  push:
+    branches: master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup repository
+      uses: actions/checkout@v2
+      
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Update README
+      run: |
+        cd src
+        python readme.py
+
+    - name: Commit and Push
+      run: |
+        change=`git diff README.md`
+        if [ ! -z "$change" ]
+        then
+          git config --global user.email ${GITHUB_ACTOR}@gmail.com
+          git config --global user.name ${GITHUB_ACTOR}
+          git add README.md
+          git commit -m "gh-actions updated README"
+          git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}
+        fi
