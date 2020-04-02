@@ -1,4 +1,8 @@
-# $repository_name
+# $repository_title
+
+[![Workflow Status](https://github.com/ravgeetdhillon/$repository_name/workflows/Update%20Readme/badge.svg)](https://github.com/ravgeetdhillon/$repository_name/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ravgeetdhillon/musica/blob/master/LICENSE)
+
 $repository_description
 
 [My Hackerrank Profile]($profile_link)
@@ -7,4 +11,4 @@ Problem | Source
 ---- | ----
 $codes
 
-> This README file is generated automatically using [Github Actions](https://github.com/ravgeetdhillon/hackerrank-algo-ds/actions) whenever a new code is inserted. Check out the [script here](https://github.com/ravgeetdhillon/hackerrank-algo-ds/blob/master/src/readme.py).
+> This README file is generated automatically using [Github Actions](https://github.com/ravgeetdhillon/$repository_name/actions) whenever a new code is inserted. Check out the [script here](https://github.com/ravgeetdhillon/$repository_name/blob/master/src/readme.py).

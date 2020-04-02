@@ -3,9 +3,10 @@ import os
 
 
 config = {
-    "repository_name": "Hackerrank Codes",
+    "repository_title": "Hackerrank Codes",
+    "repository_name": "hackerrank-algo-ds",
     "repository_description": "My hackerrank codes for problem solving and algorithm implementation.",
-    "profile_link": "https://hackerrank.com/ravgeetdhillon"
+    "profile_link": "https://hackerrank.com/ravgeetdhillon",
 }
 
 
@@ -45,9 +46,10 @@ def get_files():
     return valid_files
 
 
-def create_file(codes):
+def create_readme(codes):
     readme = io.open("../README.md", "w+")
     for line in io.open("readme.template", "r"):
+        line = line.replace("$repository_title", config["repository_title"])
         line = line.replace("$repository_name", config["repository_name"])
         line = line.replace("$repository_description", config["repository_description"])
         line = line.replace("$profile_link", config["profile_link"])
@@ -60,9 +62,9 @@ def main():
     files = get_files()
     codes = ""
     for file in files:
-        codes += "{} | [Link](https://github.com/ravgeetdhillon/hackerrank-algo-ds/blob/master/{}) \n".format(file["pretty_name"], file["original_name"])
+        codes += "{} | [Link](https://github.com/ravgeetdhillon/{}/blob/master/{}) \n".format(file["pretty_name"], config["repository_name"], file["original_name"])
 
-    create_file(codes)
+    create_readme(codes)
 
 
 if __name__ == "__main__":
